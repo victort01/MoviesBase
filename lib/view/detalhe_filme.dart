@@ -24,6 +24,7 @@ class DetalheFilmeView extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              // Imagem à esquerda
               filme.imagemUrl.isNotEmpty
                   ? Image.network(
                     filme.imagemUrl,

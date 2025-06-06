@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
       title: 'Filmes App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
-        primarySwatch: Colors.blue,
+        brightness: Brightness.dark, // Set overall theme to dark
+        primarySwatch: Colors.blue, // Set primary color to red
       ),
       home: const ListarFilmesView(),
     );
